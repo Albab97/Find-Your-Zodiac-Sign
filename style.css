@@ -1,0 +1,48 @@
+body {
+    background-image: url("media/backgroundZ.jpg");
+}
+.HomePage {
+    margin-top: 30px;
+}
+.inputBox {
+    background-color: aqua;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.card {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signWheel {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.top-heading {
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 600px;
+}
+.sideList {
+    position: absolute;
+    margin-left: 190px;
+    height: 520px;
+    width: 200px;
+    border-radius: 8px;
+    
+}
+.zodiac {
+    position: relative;
+    height: 32px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 17px;
+    border-radius: 4px;
+}
+.zodiacBtn {
+    width: 150px;
+    border-radius: 7px;
+    background-color: burlywood;
+}

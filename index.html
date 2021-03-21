@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/js/all.js"></script>
+
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row topMenu">
+      <div class="col signWheel">
+        <img src="media/signwheel.png" alt="signwheel" height="150px" width="150px">
+      </div>
+      <div class="col top-heading">
+        <h2 style="color: aliceblue;"><u><b> What is your <br> Zodiac Sign ?</b></u></h2>
+      </div>
+    </div>
+    <div class="HomePage">
+      <div class="sideList">
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9800; <b>Aries</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9801; <b>Taurus</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9802; <b>Gemini</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9803; <b>Cancer</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9804; <b>Leo</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9805; <b>Virgo</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9806; <b>Libra</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9807; <b>Scorpio</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9808; <b>Sagittarius</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9809; <b>Capricorn</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9810; <b>Aquarius</b>
+          </button>
+        </div>
+        <div class="row zodiac">
+          <button class="zodiacBtn">
+            &#9811; <b>Pisces</b>
+          </button>
+        </div>
+      </div>
+      <div class="inputBox">
+          <h3>Enter your date of birth</h3>
+          <form class="row gx-3 gy-2 align-items-center">
+              <div class="col-sm-3">
+                <label class="visually-hidden" for="specificSizeSelect">Year</label>
+                <select class="year-select" id="yearID">
+                  <option selected>Choose...</option>
+                  <option value="1">1990</option>
+                  <option value="2">1991</option>
+                  <option value="3">1992</option>
+                  <option value="4">1993</option>
+                  <option value="5">1994</option>
+                  <option value="6">1995</option>
+                  <option value="7">1996</option>
+                  <option value="8">1997</option>
+                  <option value="9">1998</option>
+                  <option value="10">1999</option>
+                  <option value="11">2000</option>
+                  <option value="12">2001</option>
+                  <option value="13">2002</option>
+                  <option value="14">2003</option>
+                  <option value="15">2004</option>
+                  <option value="16">2005</option>
+                  <option value="17">2006</option>
+                  <option value="18">2007</option>
+                  <option value="19">2008</option>
+                  <option value="20">2009</option>
+                  <option value="21">2010</option>
+                  <option value="22">2011</option>
+                  <option value="23">2012</option>
+                  <option value="24">2013</option>
+                  <option value="25">2014</option>
+                  <option value="26">2015</option>
+                  <option value="27">2016</option>
+                  <option value="28">2017</option>
+                  <option value="29">2018</option>
+                  <option value="30">2019</option>
+                  <option value="31">2020</option>
+                  <option value="32">2021</option>
+                </select>
+              </div>
+              <div class="col-sm-3">
+                  <label class="visually-hidden" for="specificSizeSelect">Month</label>
+                  <select class="month-select" id="monthID">
+                    <option selected>Choose...</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                  </select>
+                </div>
+                <div class="col-sm-3">
+                  <label class="visually-hidden" for="specificSizeSelect">Date</label>
+                  <select class="date-select" id="dateID">
+                    <option selected>Choose...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <button id="submitBtn" class="btn btn-primary">Submit</button>
+                </div>
+          </form>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+              <img src="media/leo_logo.jpg" alt="leo" width="200px" height="200px">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title"></h4>
+              <h6 class="card-english">English Name :</h6>
+              <h6 class="card-planet">Planet :</h6>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+</body>
+</html>
