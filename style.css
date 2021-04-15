@@ -5,11 +5,13 @@ body {
     margin-top: 30px;
 }
 .inputBox {
-    background-color: aqua;
+    background-color: lightcoral;
     width: 500px;
     margin-left: auto;
     margin-right: 450px;
     padding: 20px;
+    box-shadow: 10px 10px black;
+    
 }
 .card {
     margin-top: 30px;
@@ -22,7 +24,7 @@ body {
 }
 .top-heading {
     background-color:black;
-    padding: 30px;
+    padding: 40px;
     margin-top: 40px;
     margin-right: 400px;
     margin-left: 100px;
